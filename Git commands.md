@@ -31,10 +31,11 @@ Git commands:
    
    *Go to your git bash!*
    
-    Pushing to GitHub:
+   Pushing to GitHub:
     
-    Preparing to use Git:
-      
+   Preparing to use Git:
+   
+   
       $ mkdir <Directory name>  (replace <Directory name> with your directories name eg: mkdir NetworksProject)
       $ cd <Directory name> (replace <Directory name> with your directories name eg: cd NetworksProject)
       
@@ -42,7 +43,7 @@ Git commands:
       (do not use cntrl + v to paste anything in git bash instead do right click -> paste)
       $git remote add origin <URL> (<URL> is the url of your repo that you copied) 
       
-      Push:
+   Push:
       
       $ touch index.html (touch command is used to create an empty file replace index.html with your file name)
       $ git add index.html (add the created file to ur repo)
