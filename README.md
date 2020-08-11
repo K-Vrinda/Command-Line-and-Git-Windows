@@ -11,6 +11,7 @@ Go to Git Bash:
 Git commands:
   Initial Git set up:
     First set your username and email using the following commands:
+      
       git config --global user.name "username"
       git config --global user.email "email address"
     
@@ -23,6 +24,7 @@ Git commands:
 
   Pushing to GitHub:
     Preparing to use Git:
+      
       mkdir <Directory name>  (replace <Directory name> with your directories name eg: mkdir NetworksProject)
       cd <Directory name> (replace <Directory name> with your directories name eg: cd NetworksProject)
       
