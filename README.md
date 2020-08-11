@@ -29,13 +29,15 @@ Git commands:
    Copy the url of your repo (on your screen click on the green button which says 'code' and copy the url there) and note it we will use this in a later step.
 
   Pushing to GitHub:
-    Preparing to use Git:
+    
+   Preparing to use Git:
       
       mkdir <Directory name>  (replace <Directory name> with your directories name eg: mkdir NetworksProject)
       cd <Directory name> (replace <Directory name> with your directories name eg: cd NetworksProject)
       
       git init
-      git remote add origin <URL> (<URL> is the url of your repo that you copied) (do not use cntrl + v to paste anything in git bash instead do right click -> paste)
+      (do not use cntrl + v to paste anything in git bash instead do right click -> paste)
+      git remote add origin <URL> (<URL> is the url of your repo that you copied) 
       touch index.html (touch command is used to create an empty file replace index.html with your file name)
       git add index.html (add the created file to ur repo)
       git commit -m "Create index.html" (commit act like comments and help us track the changes that are made)
