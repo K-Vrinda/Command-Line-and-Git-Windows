@@ -13,8 +13,8 @@ Git commands:
    First set your username and email using the following commands:
       (Do not copy the $ sign)
       
-      $ git config --global user.name "username"
-      $ git config --global user.email "email address"
+      $git config --global user.name "username"
+      $git config --global user.email "email address"
     
   Setting up a Github account
     
@@ -36,21 +36,21 @@ Git commands:
    Preparing to use Git:
    
    
-      $ mkdir <Directory name>  (replace <Directory name> with your directories name eg: mkdir NetworksProject)
-      $ cd <Directory name> (replace <Directory name> with your directories name eg: cd NetworksProject)
+      $mkdir <Directory name>  (replace <Directory name> with your directories name eg: mkdir NetworksProject)
+      $cd <Directory name> (replace <Directory name> with your directories name eg: cd NetworksProject)
       
-      $ git init
+      $git init
       (do not use cntrl + v to paste anything in git bash instead do right click -> paste)
       $git remote add origin <URL> (<URL> is the url of your repo that you copied) 
       
    Push:
       
-      $ touch index.html (touch command is used to create an empty file replace index.html with your file name)
-      $ git add index.html (add the created file to ur repo)
-      $ git commit -m "Create index.html" (commit act like comments and help us track the changes that are made)
+      $touch index.html (touch command is used to create an empty file replace index.html with your file name)
+      $git add index.html (add the created file to ur repo)
+      $git commit -m "Create index.html" (commit act like comments and help us track the changes that are made)
       
-      $ git push origin master (pushing the changes to the repo)
-      $ git pull origin master (pulling the changes from the repo)
+      $git push origin master (pushing the changes to the repo)
+      $git pull origin master (pulling the changes from the repo)
       (it is recommended that you always make a "pull" request before you make a "push" request.)
       
 Now Go to your github account and refresh the page the changes you made in your gitbash will be reflected here!
