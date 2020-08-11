@@ -6,21 +6,26 @@ Install git from here on your windows pc :  https://gitforwindows.org/
 Complete the installation procedure.
 
 Go to Git Bash:
+  
   type Git in your start menu and select 'Git Bash'.
 
 Git commands:
+  
   Initial Git set up:
-    First set your username and email using the following commands:
+    
+   First set your username and email using the following commands:
       
       git config --global user.name "username"
       git config --global user.email "email address"
     
   Setting up a Github account
-    Create a github account if you don't have one already : https://github.com/
+    
+   Create a github account if you don't have one already : https://github.com/
   
   Creating a new remote repository:
-    Login to your git hub account and create a new repository.(click on plus to the right top on the page and choose 'New Repository'
-    Copy the url of your repo (on your screen click on the green button which says 'code' and copy the url there) and note it we will use this in a later step.
+    
+   Login to your git hub account and create a new repository.(click on plus to the right top on the page and choose 'New Repository'
+   Copy the url of your repo (on your screen click on the green button which says 'code' and copy the url there) and note it we will use this in a later step.
 
   Pushing to GitHub:
     Preparing to use Git:
