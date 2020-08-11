@@ -25,6 +25,7 @@ Git commands:
   Creating a new remote repository:
     
    Login to your git hub account and create a new repository.(click on plus to the right top on the page and choose 'New Repository'
+   
    Copy the url of your repo (on your screen click on the green button which says 'code' and copy the url there) and note it we will use this in a later step.
 
   Pushing to GitHub:
